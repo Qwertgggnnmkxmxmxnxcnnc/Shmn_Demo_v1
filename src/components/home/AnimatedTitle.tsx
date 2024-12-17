@@ -34,7 +34,7 @@ const AnimatedTitle = () => {
   }, []);
 
   return (
-    <h1 className="text-6xl md:text-8xl font-bold mb-8">
+    <h1 className="text-6xl md:text-8xl font-bold mb-8 text-[#b7985a]">
       <div className="space-y-2">
         <div className={`transition-opacity duration-500 ${isFirstTransitioning ? 'opacity-0' : 'opacity-100'}`}>
           <span className="block">{words[firstWordIndex].first}</span>

@@ -30,14 +30,14 @@ const AnimatedHero = ({ onMenuClick }: AnimatedHeroProps) => {
     <>
       <AnimatedNavbar show={showNavbar} onMenuClick={onMenuClick} />
       
-      <div className="min-h-screen text-white relative overflow-x-hidden"> 
-        <div className="absolute inset-0 -z-10 w-full"
+      <div className="min-h-screen text-gray-900 relative overflow-x-hidden">
+        <div className="absolute inset-0 -z-10 w-full h-full bg-white"
           style={{ 
-            backgroundImage: 'url(src/assets/images/ShmnGoldWhite.svg', 
-            backgroundSize: 'contain',
+            backgroundImage: 'url(src/assets/images/ShmnGoldWhiteLong.svg)', 
+            backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            filter: 'blur(10px)'
+            filter: 'blur(4px)'
           }}>
         </div>
         <div className="mobile-container pt-32 relative">

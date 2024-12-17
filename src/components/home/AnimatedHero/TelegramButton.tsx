@@ -20,7 +20,7 @@ const TelegramButton = ({ show }: TelegramButtonProps) => {
         <span className="text-lg text-white">Присоединяйтесь к нам в Telegram</span>
       </a>
       
-      <p className="text-gray-400 text-sm">
+      <p className="text-gray-900 text-sm bg-transparent">
         Все самое лучшее у нас в Telegram
       </p>
     </div>

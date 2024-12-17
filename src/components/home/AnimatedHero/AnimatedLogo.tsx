@@ -1,3 +1,4 @@
+import BlackLogo from '../../../assets/images/Shmn_black.svg';
 
 interface AnimatedLogoProps {
   isLoaded: boolean;
@@ -15,7 +16,7 @@ const AnimatedLogo = ({ isLoaded }: AnimatedLogoProps) => {
       `}
     >
       <img 
-        src="https://static.tildacdn.com/tild3631-3134-4636-a635-346265366464/Shamanic_Staff_white.svg" 
+        src={BlackLogo}
         alt="Shamanic Staff Logo" 
         className="w-full h-full object-contain rounded-[2.5rem]"
         loading="eager"

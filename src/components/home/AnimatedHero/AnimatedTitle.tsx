@@ -43,10 +43,10 @@ const AnimatedTitle = ({ show }: AnimatedTitleProps) => {
     <div className={`text-center transition-all duration-1000 ${
       show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
     }`}>
-      <span className="text-sm uppercase tracking-wider text-gray-400 mb-6 block">
+      <span className="text-sm uppercase tracking-wider text-gray-900 mb-6 block">
         Артефакты для раскрытия ресурсного состояния
       </span>
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 text-[#b7985a]">
         <div className="space-y-2">
           <div className={`transition-opacity duration-500 ${isFirstTransitioning ? 'opacity-0' : 'opacity-100'}`}>
             <span className="block">{words[firstWordIndex].first}</span>
